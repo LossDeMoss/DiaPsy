@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lossdemoss.dialog_dnevnick.BUMenu"
+    tools:showIn="@layout/app_bar_bumenu">
+
+    <android.support.design.widget.FloatingActionButton
+        android:hint="Новый продукт"
+        android:src="@drawable/ic_action_add_light"
+        android:id="@+id/fab_add_bumenu"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_gravity="bottom|end"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+</android.support.design.widget.CoordinatorLayout>

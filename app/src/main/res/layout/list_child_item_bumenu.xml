@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginStart="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:id="@+id/product"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fauna_one"
+            android:text="@string/name_of_prod"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/product_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fauna_one"
+            android:text="@string/weight_for_BU"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+</LinearLayout>

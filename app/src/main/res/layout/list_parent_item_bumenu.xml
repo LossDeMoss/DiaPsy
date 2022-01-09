@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="13dp"
+    >
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/rectangle_rouded"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="13dp"
+    >
+    <FrameLayout
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+        <TextView
+
+            android:id="@+id/type_of_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fauna_one"
+            android:text="@string/type_name"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

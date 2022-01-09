@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lossdemoss.dialog_dnevnick">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:noHistory="true"
+            android:parentActivityName=".ZamerListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ZamerPagerActivity" />
+        <activity android:name=".ArticleHoldingActivity"
+            android:label= "" />
+        <activity
+            android:name=".Psycology"
+            android:label="@string/title_activity_psycology"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Stats"
+            android:label="@string/title_activity_stats"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".AboutSpec" />
+        <activity android:name=".Thanks" />
+        <activity
+            android:name=".DataBaseExportActivity"
+            android:label="@string/title_activity_data_base_export"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BUMenu"
+            android:label="@string/title_activity_bumenu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ZamerListActivity"
+            android:label="@string/dnevnick"
+            android:parentActivityName=".ZamerListActivity" />
+        <activity
+            android:name=".ProductListActivity"
+            android:label="Продукты"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Prods"
+            android:label="Продукты"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BUProdCalc"
+            android:label="Калькулятор ХЕ" />
+        <activity
+            android:name=".AddNewProductActivity"
+            android:label="Добавление нового продукта"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

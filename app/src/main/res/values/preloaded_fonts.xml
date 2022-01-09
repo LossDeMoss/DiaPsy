@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alex_brush</item>
+        <item>@font/alice</item>
+        <item>@font/amiri</item>
+        <item>@font/anaheim</item>
+        <item>@font/atomic_age</item>
+        <item>@font/bad_script</item>
+        <item>@font/belgrano</item>
+        <item>@font/caveat</item>
+        <item>@font/changa</item>
+        <item>@font/chivo</item>
+        <item>@font/coda</item>
+        <item>@font/comfortaa</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/comfortaa_light</item>
+        <item>@font/days_one</item>
+        <item>@font/exo</item>
+        <item>@font/fauna_one</item>
+        <item>@font/georgia</item>
+        <item>@font/give_you_glory</item>
+        <item>@font/kalam_light</item>
+        <item>@font/lemonada</item>
+        <item>@font/nunito</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_mono</item>
+        <item>@font/roboto_thin</item>
+        <item>@font/ruslan_display</item>
+        <item>@font/times</item>
+        <item>@font/vollkorn</item>
+        <item>@font/yatra_one</item>
+    </array>
+</resources>

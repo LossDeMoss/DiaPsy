@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#ed85b0</color>
+    <color name="colorPrimary">#DCE775</color>
+    <color name="colorAccent">#ffa726</color>
+    <color name="colorForDelFab">#ff5252</color>
+</resources>
